@@ -10,7 +10,7 @@ const userRouter = require("./routes/user.route");
 const adminRouter = require("./routes/admin.route");
 mongoose
   .connect(
-    "mongodb+srv://rajlaxmitangudu:Laxmi-2002@xexit.l5l1lhd.mongodb.net/xexit?retryWrites=true&w=majority&appName=xexit"
+    "mongodb+srv://rajlaxmitangudu:Laxmi-2002@xexit.l5l1lhd.mongodb.net/xexit1?retryWrites=true&w=majority&appName=xexit"
   )
   .then(() => console.log("Database Connected"))
   .catch((e) => console.log(e));
